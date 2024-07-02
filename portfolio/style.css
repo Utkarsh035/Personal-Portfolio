@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.wapper{
+    display: flex;
+    width: 100vw;
+    background-color: rgb(26, 29,34);
+}
+
+.side_bar{
+    display: block;
+    width: 25%;
+    background-color: rgb(26, 29,34);
+    height: 100vh;
+    box-shadow: 5px 5px 15px 5px rgb(8, 10, 12);
+    position: fixed;
+}
+.photo{
+    width: 60%;
+    height: 25%;
+    margin: 5% 0 0 7%; 
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px 1px rgb(18,247, 214);
+}
+.name h1{
+    font-size: 30px;
+    color: rgb(18,247, 214);
+    margin: 15% 0 0 5%;
+    text-shadow: 5px 5px 15px rgba(234, 231, 231, 0.084);
+}
+.name p{
+    font-size: 20px;
+    color: rgb(247, 242, 242);
+    margin: 2% 0 0 5%;
+}
+.wapper ul{
+    list-style: none;
+    padding-top: 5%;
+    margin: 5% 0 0 17%;
+}
+.wapper ul li{
+    margin: 20px;
+}
+.wapper ul li a{
+    text-decoration: none;
+}
+.wapper ul li h1{
+    color:  rgb(18,247, 214);
+    text-shadow: 5px 5px 15px black;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.1s;
+}
+.wapper ul li h1:hover{
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.733); 
+}
+.about{
+    margin:  5% 0 0 35%;
+    height: fit-content;
+    width: 85%;
+    
+}
+.about h1{
+    color:  rgb(18,247, 214);
+    text-shadow: 5px 5px 15px black;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.about p{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: rgba(245, 245, 245, 0.705);
+}
+.skills{
+    margin:  10% 0 0 35%;
+    height: fit-content;
+    width: 85%;
+}
+.skills h1{
+    color:  rgb(18,247, 214);
+    text-shadow: 5px 5px 15px black;
+    font-size: 35px;
+    margin:  2% 0 0 45%;
+}
+.skills ul{
+    list-style: decimal;
+    margin: 0;
+}
+.skills ul li{
+    font-size: 18px;
+    color: rgba(245, 245, 245, 0.705);   
+}
+.project{
+    margin:  10% 0 0 35%;
+    height: fit-content;
+    width: 85%;
+}
+.project h1{
+    color:  rgb(18,247, 214);
+    text-shadow: 5px 5px 15px black;
+    font-size: 35px;
+    margin:  2% 0 0 45%;
+}
+.project ul{
+    list-style: decimal;
+    margin: 10px 0 0 30px;
+}
+.project ul li {
+    margin: 10px 0 0 0;
+    color: rgba(245, 245, 245, 0.705);
+}
+.project ul li span{
+    color:  rgb(18,247, 214);
+    font-size: 23px;
+    text-decoration: underline black;
+}
+.resume{
+    margin:  10% 0 0 35%;
+    height: fit-content;
+    width: 85%;
+}
+.resume h1{
+    color:  rgb(18,247, 214);
+    text-shadow: 5px 5px 15px black;
+    font-size: 35px;
+    margin:  2% 0 0 45%;
+}
+.resume img{
+    width: 60%;
+    height: fit-content;
+    margin: 2% 0 0 20%;
+    display: block;
+}
+.contact{
+    margin:  10% 0 0 30%;
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+}
+.contact h1{
+    color:  rgb(18,247, 214);
+    font-size: 25px;
+    margin:  2% 0 0 4%;
+}
+.contact img{
+    width: 20px;
+    height: 20px;
+}
+.call{
+    margin:  2% 0 0 4%;
+    display: flex;
+}
+.call h2{
+    color: rgba(245, 245, 245, 0.705);
+    font-size: 20px;
+    margin-left: 5px;
+}
+.mail{
+    margin:  2% 0 0 4%;
+    display: flex;
+}
+.mail a{
+    color: rgba(245, 245, 245, 0.705);
+    font-size: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.linkdin{
+    margin:  2% 0 0 4%;
+    display: flex;
+}
+.linkdin a{
+    color: rgba(245, 245, 245, 0.705);
+    font-size: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+
+
